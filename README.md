@@ -38,6 +38,10 @@ ansible-playbook ansible/down.yaml
 
 - Metrics showing up
 
+<img width="677" height="266" alt="image" src="https://github.com/user-attachments/assets/f04f0f3c-d259-4e2e-9d68-878bd8056b69" />
+
+-Rolldice telemetry
+
 ![alt text](image-2.png)
 
 
