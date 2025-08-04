@@ -33,7 +33,8 @@ ansible-playbook ansible/down.yaml
 
 - SigNoz hosts
 
-![alt text](image-1.png)
+<img width="950" height="506" alt="image" src="https://github.com/user-attachments/assets/15398468-d7b3-4718-ba71-2ac4ff3f2a40" />
+
 
 - Metrics showing up
 
