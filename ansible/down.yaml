@@ -1,0 +1,6 @@
+- name: Uninstall SigNoz K8s Infra Helm chart
+  hosts: all
+  become: yes
+  tasks:
+    - name: Uninstall helm release
+      command: helm uninstall signoz-k8s-infra

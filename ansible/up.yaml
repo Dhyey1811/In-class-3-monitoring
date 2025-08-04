@@ -1,0 +1,14 @@
+- name: Install K8s Infra Helm Chart for SigNoz
+  hosts: all
+  become: yes
+  tasks:
+    - name: Add SigNoz Helm repo
+      command: helm repo add signoz https://charts.signoz.io
+
+    - name: Update Helm repo
+      command: helm repo update
+
+    - name: Install signoz-k8s-infra chart
+      command: >
+        helm install signoz-k8s-infra signoz/signoz-k8s-infra
+        -f {{ playbook_dir }}/../helm/values.yaml
