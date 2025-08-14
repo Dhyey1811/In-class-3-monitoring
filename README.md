@@ -1,6 +1,6 @@
 ## K8S Infra Helm Chart with Ansible for SigNoz on TrueNAS
 ## 1. Project Overview
-## This project deploys the K8S Infra Helm chart on a Kubernetes cluster using Ansible playbooks (up.yaml and down.yaml) to send logs and telemetry to a SigNoz installation running in Docker on TrueNAS. The setup allows overriding Helm values to specify an upstream OpenTelemetry (otel) collector. Additionally, the rolldice sample application is deployed to verify telemetry flow to SigNoz.
+ This project deploys the K8S Infra Helm chart on a Kubernetes cluster using Ansible playbooks (up.yaml and down.yaml) to send logs and telemetry to a SigNoz installation running in Docker on TrueNAS. The setup allows overriding Helm values to specify an upstream OpenTelemetry (otel) collector. Additionally, the rolldice sample application is deployed to verify telemetry flow to SigNoz.
 ## 2. Prerequisites
 - Kubernetes cluster (tested on vSphere environment)
 - Ansible installed on control machine
